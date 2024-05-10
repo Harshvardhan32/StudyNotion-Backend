@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: 'https://studynotion-edtech-plateform.netlify.app',
+		origin: ['https://studynotion-edtech-plateform.netlify.app', 'http://localhost:3000'],
 		credentials: true,
 	})
 );
